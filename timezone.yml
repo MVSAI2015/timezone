@@ -1,0 +1,9 @@
+---
+- 
+  hosts: localhost
+  become: yes
+  gather_facts: false
+  tasks: 
+   - name: set timezone to Asia/kolkata
+    command: 'timdatectl set-timezone Asia/kolkata'
+    
