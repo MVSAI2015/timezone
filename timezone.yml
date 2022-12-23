@@ -7,3 +7,4 @@
    - name: set timezone to Asia/kolkata
     command: 'timdatectl set-timezone Asia/kolkata'
     
+    hi how are u 
